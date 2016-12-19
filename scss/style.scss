@@ -1,0 +1,103 @@
+//colors
+$color-bgNav: #262626;
+$white: white;
+$color-hover: #ff710d;
+$black: black;
+
+//fonts
+$font: verdana;
+
+body {
+	padding-top: 50px;
+	font-family: $font;
+	font-size: 30px;
+	background-color: $color-bgNav;
+}
+
+/*Navbar*/
+.navbar {
+	font-size: 15px;
+	font-weight: bold;
+	background-color: $color-bgNav;
+}
+h3 {
+	color: $white;
+}
+.container {
+	width: 100%;
+}
+/*.Navbar/
+
+/*Títulos*/
+h1 {
+	font-size: 50px;
+}
+/*.Títulos*/
+
+/*Div estilo 1*/
+#div1 {
+	padding-top: 20px;
+	background-color: $white;
+	color: $black;
+	text-align: center;
+}
+/*.Div estilo 1*/
+
+/*Div estilo 2*/
+#div2 {
+	text-align: center;
+	background-color: $color-bgNav;
+	color: $white;
+}
+/*.Div estilo 2*/
+
+/*Footer*/
+footer {
+	font-size: 15px;
+	font-weight: bold;
+	background-color: $color-bgNav;
+	height: 150px;
+	padding-top: 50px;
+	text-align: center;
+}
+.fa-github {
+	font-size: 70px;
+	color: $white;
+}
+/*.Footer*/
+
+@media(max-width:768px) {
+	body {
+		padding-top: 50px;
+		font-family: $font;
+		font-size: 15px;
+		background-color: $color-bgNav;
+	}
+	h1 {
+		font-size: 25px;
+	}
+	div > p {
+		padding-top: 20px;
+		text-align: left;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+/*Links Navbar*/
+.navbar-inverse .navbar-nav > li > a {
+	color: $white;
+	&:hover {
+		color: $color-hover;
+	}
+}
+/*.Links Navbar*/
+
+/*Textos*/
+div > p {
+	padding-top: 20px;
+	text-align: left;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+/*.Textos*/
